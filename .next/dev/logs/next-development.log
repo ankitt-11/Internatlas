@@ -1,0 +1,8 @@
+{"timestamp":"00:17:12.074","source":"Server","level":"ERROR","message":"⨯ ChunkLoadError: Failed to load chunk server/chunks/ssr/node_modules_next_dist_compiled_0d323sd._.js from runtime for chunk server/app/_not-found/page.js"}
+{"timestamp":"00:17:12.089","source":"Server","level":"ERROR","message":"⨯ \"unhandledRejection:\" Error: ENOENT: no such file or directory, scandir 'D:\\InternAtlas\\src\\app'"}
+{"timestamp":"00:17:13.000","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, open 'D:\\InternAtlas\\.next\\dev\\static\\development\\_buildManifest.js.tmp.u30xucpmiun'"}
+{"timestamp":"00:17:13.002","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\InternAtlas\\src\\app'"}
+{"timestamp":"00:17:13.011","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\InternAtlas\\src\\app'"}
+{"timestamp":"00:17:13.013","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\InternAtlas\\src\\app'"}
+{"timestamp":"00:17:13.020","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\InternAtlas\\src\\app'"}
+{"timestamp":"00:17:13.022","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\InternAtlas\\src\\app'"}
