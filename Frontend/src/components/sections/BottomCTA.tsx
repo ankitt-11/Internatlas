@@ -56,30 +56,39 @@ export function BottomCTA() {
         </div>
 
         {/* ── Center-Right: Doorway Graphic ────────────────────────── */}
-        <div className="absolute right-[20%] lg:right-[30%] bottom-0 flex h-[280px] items-end justify-center pointer-events-none">
+        <div className="absolute right-[15%] lg:right-[25%] bottom-0 flex h-[280px] w-[200px] items-end justify-center pointer-events-none">
           {/* The Archway Cutout (White Glowing Hole) */}
-          <div className="relative h-full w-[160px] rounded-t-[80px] bg-white shadow-[0_0_80px_rgba(255,255,255,0.9),inset_0_20px_40px_rgba(0,0,0,0.1)] overflow-hidden border-t-8 border-x-8 border-[#101726]/40">
+          <div className="relative h-full w-[170px] rounded-t-[85px] bg-[#e0f2fe] shadow-[0_0_100px_rgba(255,255,255,0.8),inset_0_20px_40px_rgba(0,0,0,0.3)] overflow-hidden border-t-[14px] border-x-[14px] border-[#132240] ring-1 ring-white/10">
             
-            {/* Stairs inside the archway */}
-            <div className="absolute bottom-0 right-0 flex flex-col items-end">
-              <div className="h-[25px] w-[60px] bg-gradient-to-r from-blue-100/10 to-white shadow-[0_-2px_4px_rgba(0,0,0,0.1)] border-t border-white/50" />
-              <div className="h-[25px] w-[80px] bg-gradient-to-r from-blue-100/20 to-blue-100/10 shadow-[0_-2px_4px_rgba(0,0,0,0.1)] border-t border-white/50" />
-              <div className="h-[25px] w-[100px] bg-gradient-to-r from-blue-100/30 to-blue-100/20 shadow-[0_-2px_4px_rgba(0,0,0,0.1)] border-t border-white/50" />
-              <div className="h-[25px] w-[120px] bg-gradient-to-r from-blue-100/40 to-blue-100/30 shadow-[0_-2px_4px_rgba(0,0,0,0.1)] border-t border-white/50" />
-              <div className="h-[30px] w-[160px] bg-gradient-to-r from-blue-100/50 to-blue-100/40 shadow-[0_-2px_4px_rgba(0,0,0,0.2)] border-t border-white/50" />
+            {/* Intense Light Core */}
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(255,255,255,1)_0%,rgba(255,255,255,0.8)_40%,rgba(186,230,253,0.2)_100%)]" />
+
+            {/* Stairs inside the archway (Approximating the spiral steps) */}
+            <div className="absolute bottom-0 right-[-10px] flex flex-col items-end">
+              {/* Step 5 (Top) */}
+              <div className="relative h-[22px] w-[60px] bg-gradient-to-r from-blue-300/40 to-blue-100/90 shadow-[0_-2px_10px_rgba(0,0,0,0.15)] rounded-l-full border-t border-white/80" />
+              {/* Step 4 */}
+              <div className="relative h-[22px] w-[85px] bg-gradient-to-r from-blue-300/50 to-blue-200/90 shadow-[0_-2px_10px_rgba(0,0,0,0.15)] rounded-l-full border-t border-white/70" />
+              {/* Step 3 */}
+              <div className="relative h-[22px] w-[110px] bg-gradient-to-r from-blue-400/50 to-blue-200/90 shadow-[0_-2px_10px_rgba(0,0,0,0.2)] rounded-l-full border-t border-white/60" />
+              {/* Step 2 */}
+              <div className="relative h-[22px] w-[135px] bg-gradient-to-r from-blue-400/60 to-blue-300/90 shadow-[0_-2px_10px_rgba(0,0,0,0.2)] rounded-l-full border-t border-white/50" />
+              {/* Step 1 (Bottom) */}
+              <div className="relative h-[30px] w-[170px] bg-gradient-to-r from-blue-500/60 to-blue-300/90 shadow-[0_-2px_10px_rgba(0,0,0,0.25)] border-t border-white/40" />
             </div>
             
-            {/* Blinding Light core */}
-            <div className="absolute top-[20px] left-[20px] h-[120px] w-[120px] rounded-full bg-white blur-[20px]" />
+            {/* Blinding Light overlay on left edge of stairs */}
+            <div className="absolute top-[30%] left-[-20px] h-[150px] w-[150px] rounded-full bg-white blur-[25px]" />
           </div>
 
           {/* Light spill on the floor in front of the door */}
-          <div className="absolute bottom-0 h-[15px] w-[240px] rounded-[100%] bg-white blur-[12px]" />
-          <div className="absolute bottom-[-10px] h-[30px] w-[300px] rounded-[100%] bg-blue-300/40 blur-[20px]" />
+          <div className="absolute bottom-0 h-[20px] w-[260px] rounded-[100%] bg-white blur-[15px]" />
+          <div className="absolute bottom-[-15px] h-[40px] w-[350px] rounded-[100%] bg-blue-400/40 blur-[25px]" />
+          <div className="absolute bottom-[-20px] h-[60px] w-[450px] rounded-[100%] bg-blue-600/30 blur-[40px]" />
         </div>
 
         {/* ── Far-Right: Handwriting Text ──────────────────────────── */}
-        <div className="absolute right-[2%] lg:right-[5%] top-[30%] z-30 -rotate-[6deg] hidden md:flex flex-col items-start drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
+        <div className="absolute right-0 lg:-right-4 xl:-right-8 top-[30%] z-30 -rotate-[6deg] hidden md:flex flex-col items-start drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
           <span className="font-hand text-white text-[24px] lg:text-[28px] leading-tight font-medium">
             Curious minds. <br />
             Brighter tomorrows.

@@ -80,21 +80,21 @@ const CARDS = [
 
 export function HeroVisual() {
   return (
-    <div className="relative hidden lg:block h-[250px] w-full" aria-hidden="true">
+    <div className="relative hidden lg:block h-[180px] w-full" aria-hidden="true">
       
       {/* Decorative text 1 (Top Left) */}
-      <div className="absolute top-[20%] left-[-2%] -rotate-6 font-hand text-[26px] text-primary leading-[1.1] z-20">
+      <div className="absolute top-[12%] left-[-2%] -rotate-6 font-hand text-[20px] text-primary leading-[1.1] z-20">
         Explore <br /> opportunities <br /> in your interest.
-        <svg className="absolute -bottom-8 right-[5px] text-cyan" width="30" height="30" viewBox="0 0 100 100" fill="none">
+        <svg className="absolute -bottom-6 right-[5px] text-cyan" width="20" height="20" viewBox="0 0 100 100" fill="none">
           <path d="M10 10 Q 30 50, 70 80" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" fill="none" />
           <path d="M50 85 L 70 80 L 60 65" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
         </svg>
       </div>
 
       {/* Decorative text 2 (Bottom Right) */}
-      <div className="absolute bottom-[5%] right-[-5%] -rotate-3 font-hand text-[26px] text-primary z-20 leading-[1.1]">
+      <div className="absolute bottom-[2%] right-[-5%] -rotate-3 font-hand text-[20px] text-primary z-20 leading-[1.1]">
         Skills <br /> today. <br /> Opportunities <br /> tomorrow.
-        <svg className="absolute -bottom-4 right-0 text-cyan" width="70" height="12" viewBox="0 0 100 20" fill="none">
+        <svg className="absolute -bottom-4 right-0 text-cyan" width="50" height="10" viewBox="0 0 100 20" fill="none">
           <path d="M5 8 Q 45 2, 95 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" fill="none" />
           <path d="M20 18 Q 55 12, 85 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" fill="none" />
         </svg>
@@ -107,12 +107,12 @@ export function HeroVisual() {
             key={card.id}
             className={cn(
               "absolute flex flex-col items-center justify-center gap-3 rounded-[24px] bg-white p-5 border border-border shadow-card transition-all duration-500 hover:-translate-y-2 hover:shadow-hover hover:border-cyan-light",
-              "w-[76px] h-[76px] p-2",
+              "w-[56px] h-[56px] p-1.5",
               card.pos
             )}
           >
-            <div className="scale-75 origin-center"><card.icon /></div>
-            <span className="text-[10px] font-bold text-primary text-center leading-[1.1] whitespace-pre-wrap">{card.label.replace(' & ', ' &\n')}</span>
+            <div className="scale-50 origin-center"><card.icon /></div>
+            <span className="text-[8px] font-bold text-primary text-center leading-[1.1] whitespace-pre-wrap -mt-2">{card.label.replace(' & ', ' &\n')}</span>
           </div>
         ))}
       </div>

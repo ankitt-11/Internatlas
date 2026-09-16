@@ -108,7 +108,7 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-8 flex flex-col items-center justify-between border-t border-slate-800 pt-4 sm:flex-row">
+        <div className="mt-8 flex flex-col items-center justify-between border-t border-slate-800 pt-6 pb-0 sm:flex-row relative z-10">
           <p className="text-[12px]">© {new Date().getFullYear()} Intern Atlas. All rights reserved.</p>
           <div className="mt-4 flex items-center gap-6 sm:mt-0">
             <span className="flex items-center gap-2 text-[12px] text-white">
@@ -117,6 +117,16 @@ export function Footer() {
           </div>
         </div>
 
+      </div>
+
+      {/* Massive Brand Footer Text (like antimattr) */}
+      <div className="w-full overflow-hidden flex justify-center items-end bg-[#0A1128] pt-0 pb-8 -mt-10 select-none pointer-events-none">
+        <span 
+          className="text-[clamp(80px,19vw,450px)] font-bold tracking-[-0.06em] text-white whitespace-nowrap"
+          style={{ lineHeight: '0.8' }}
+        >
+          internatlas
+        </span>
       </div>
     </footer>
   );

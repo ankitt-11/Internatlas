@@ -8,7 +8,7 @@ interface ExploreCategoriesProps {
 
 export function ExploreCategories({ categories }: ExploreCategoriesProps) {
   return (
-    <section className="bg-transparent py-4 lg:py-6" aria-label="Explore by category">
+    <section className="bg-transparent pt-4 pb-6 lg:pt-6 lg:pb-10" aria-label="Explore by category">
       <div className="mx-auto max-w-[1400px] px-6">
         
         {/* Categories Row */}
@@ -28,7 +28,7 @@ export function ExploreCategories({ categories }: ExploreCategoriesProps) {
         </div>
 
         {/* Stats Section (No white box, directly on background) */}
-        <div className="mt-8 flex flex-col gap-6 border-t border-border-light pt-8 lg:flex-row lg:items-center lg:justify-between">
+        <div className="mt-3 flex flex-col gap-4 border-t border-border-light pt-4 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-col mb-4 lg:mb-0 text-primary shrink-0">
             <span className="text-[16px] lg:text-[18px] font-bold text-left">A growing community</span>
             <span className="text-[16px] lg:text-[18px] font-medium text-left text-text-secondary">of ambitious students.</span>

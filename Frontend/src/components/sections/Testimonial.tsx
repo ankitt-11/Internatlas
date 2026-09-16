@@ -2,7 +2,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export function Testimonial() {
   return (
-    <section className="bg-transparent pt-0 pb-2 lg:pb-3" aria-label="Student Stories">
+    <section className="bg-transparent pt-12 lg:pt-20 pb-2 lg:pb-3" aria-label="Student Stories">
       <div className="mx-auto max-w-[1400px] px-6">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.6fr_1fr]">
           
@@ -11,9 +11,8 @@ export function Testimonial() {
             <span className="mb-2 block text-[18px] font-bold uppercase tracking-widest text-blue">
               STUDENT STORIES
             </span>
-            <blockquote className="mb-10 text-[28px] font-medium leading-[1.3] text-[#1e293b] md:text-[32px] xl:text-[35px] tracking-tight">
-              “InternAtlas helped me find my first internship and even <br className="hidden lg:block" />
-              a scholarship. The platform is simple, genuine and <br className="hidden lg:block" />
+            <blockquote className="mb-10 text-[24px] font-medium leading-[1.4] text-[#1e293b] md:text-[28px] lg:text-[32px] tracking-tight">
+              “InternAtlas helped me find my first internship and even a scholarship. The platform is simple, genuine and{" "}
               <span className="font-serif italic font-normal text-editorial-red">student-friendly.”</span>
             </blockquote>
             

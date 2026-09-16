@@ -58,12 +58,12 @@ export function OpportunitySection({
           <div className="flex gap-4 lg:gap-5 overflow-x-auto -mt-4 py-4 scrollbar-none snap-x snap-mandatory">
             {opportunities.map((opp) => (
               <div key={opp.id} className="snap-start shrink-0">
-                <OpportunityCard opportunity={opp} className="w-[270px] lg:w-[280px]" />
+                <OpportunityCard opportunity={opp} className="w-[260px] lg:w-[254px]" />
               </div>
             ))}
           </div>
-          {/* Fade hint */}
-          <div className={cn("pointer-events-none absolute bottom-4 right-0 top-0 w-16 lg:w-32 bg-gradient-to-l to-transparent", bgWhite ? "from-white" : "from-background")} />
+          {/* Fade hint - hidden on large screens since 5 cards fit perfectly */}
+          <div className={cn("pointer-events-none absolute bottom-4 right-0 top-0 w-16 bg-gradient-to-l to-transparent lg:hidden", bgWhite ? "from-white" : "from-background")} />
         </div>
 
       </div>
