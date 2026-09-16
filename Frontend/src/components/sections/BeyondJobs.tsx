@@ -35,43 +35,27 @@ export function BeyondJobs() {
           </div>
         </div>
 
-        {/* Grid of Cards */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 pb-6">
           {CARDS.map((card) => (
             <div
               key={card.id}
-              className={`group relative flex h-[260px] w-full flex-col justify-between overflow-hidden rounded-2xl p-6 ${card.bg} cursor-pointer transition-all duration-300 hover:-translate-y-2 shadow-md hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.5)] border border-white/5`}
+              className={`group relative flex h-[180px] w-full flex-col justify-end overflow-hidden rounded-2xl p-4 cursor-pointer transition-all duration-300 hover:-translate-y-1 shadow-sm border border-slate-200/50 hover:shadow-lg`}
             >
-              {/* Background Image with Duotone Blend */}
+              {/* Background Image */}
               <img 
                 src={card.img} 
                 alt={card.title} 
-                className="absolute inset-0 h-full w-full object-cover opacity-20 mix-blend-overlay transition-all duration-700 group-hover:scale-110 group-hover:opacity-40" 
+                className="absolute inset-0 h-full w-full object-cover transition-all duration-700 group-hover:scale-110" 
               />
 
-              {/* Huge subtle abstract glow in the background */}
-              <div className="absolute -right-10 -top-10 h-48 w-48 rounded-full bg-white/5 blur-[50px] transition-opacity duration-500 group-hover:bg-white/20" />
+              {/* Gradient overlay for text contrast */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
 
-              {/* Top Section: Glassmorphic Glowing Icon */}
-              <div className="relative z-10 flex h-14 w-14 items-center justify-center rounded-[14px] bg-white/10 backdrop-blur-md border border-white/20 shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)] group-hover:scale-110 transition-transform duration-300 group-hover:rotate-3">
-                <card.icon size={26} className="text-white drop-shadow-md" strokeWidth={2} />
+              {/* Bottom Section: Text */}
+              <div className="relative z-10">
+                <h3 className="text-[15px] font-bold text-white tracking-tight leading-snug">{card.title}</h3>
+                <p className="text-[12px] font-medium text-slate-200/90 leading-tight mt-0.5">{card.desc}</p>
               </div>
-
-              {/* Bottom Section: Text & Animated Arrow */}
-              <div className="relative z-10 mt-auto flex items-end justify-between">
-                <div className="flex flex-col pr-4">
-                  <h3 className="text-[20px] font-bold text-white tracking-tight mb-1 drop-shadow-sm">{card.title}</h3>
-                  <p className="text-[13px] font-medium text-slate-200/90 leading-tight">{card.desc}</p>
-                </div>
-                
-                {/* Hover Arrow popping in from bottom right */}
-                <div className="flex h-10 w-10 shrink-0 translate-x-4 translate-y-4 items-center justify-center rounded-full bg-white text-slate-900 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 shadow-xl">
-                  <ArrowRight size={18} strokeWidth={2.5} />
-                </div>
-              </div>
-              
-              {/* Subtle gradient overlay at the bottom for text contrast */}
-              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 to-transparent pointer-events-none" />
             </div>
           ))}
         </div>

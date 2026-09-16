@@ -45,7 +45,7 @@ const SOCIALS = [
 
 export function Footer() {
   return (
-    <footer className="bg-[#0B1120] text-slate-400 border-t border-white/10" aria-label="Site footer">
+    <footer className="bg-[#0A1128] text-slate-400" aria-label="Site footer">
       <div className="mx-auto max-w-[1400px] px-6 py-16">
         
         {/* Top grid */}

@@ -273,7 +273,7 @@ const SOCIALS = [
 ];
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "bg-[#0B1120] text-slate-400 border-t border-white/10",
+        className: "bg-[#0A1128] text-slate-400",
         "aria-label": "Site footer",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto max-w-[1400px] px-6 py-16",
@@ -788,105 +788,58 @@ function BeyondJobs() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 pb-6",
                     children: CARDS.map((card)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `group relative flex h-[260px] w-full flex-col justify-between overflow-hidden rounded-2xl p-6 ${card.bg} cursor-pointer transition-all duration-300 hover:-translate-y-2 shadow-md hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.5)] border border-white/5`,
+                            className: `group relative flex h-[180px] w-full flex-col justify-end overflow-hidden rounded-2xl p-4 cursor-pointer transition-all duration-300 hover:-translate-y-1 shadow-sm border border-slate-200/50 hover:shadow-lg`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     src: card.img,
                                     alt: card.title,
-                                    className: "absolute inset-0 h-full w-full object-cover opacity-20 mix-blend-overlay transition-all duration-700 group-hover:scale-110 group-hover:opacity-40"
+                                    className: "absolute inset-0 h-full w-full object-cover transition-all duration-700 group-hover:scale-110"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 45,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute -right-10 -top-10 h-48 w-48 rounded-full bg-white/5 blur-[50px] transition-opacity duration-500 group-hover:bg-white/20"
+                                    className: "absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative z-10 flex h-14 w-14 items-center justify-center rounded-[14px] bg-white/10 backdrop-blur-md border border-white/20 shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)] group-hover:scale-110 transition-transform duration-300 group-hover:rotate-3",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(card.icon, {
-                                        size: 26,
-                                        className: "text-white drop-shadow-md",
-                                        strokeWidth: 2
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                        lineNumber: 57,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                    lineNumber: 56,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative z-10 mt-auto flex items-end justify-between",
+                                    className: "relative z-10",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex flex-col pr-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-[20px] font-bold text-white tracking-tight mb-1 drop-shadow-sm",
-                                                    children: card.title
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                                    lineNumber: 63,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-[13px] font-medium text-slate-200/90 leading-tight",
-                                                    children: card.desc
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                                    lineNumber: 64,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                            lineNumber: 62,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex h-10 w-10 shrink-0 translate-x-4 translate-y-4 items-center justify-center rounded-full bg-white text-slate-900 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 shadow-xl",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                                size: 18,
-                                                strokeWidth: 2.5
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                                lineNumber: 69,
-                                                columnNumber: 19
-                                            }, this)
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-[15px] font-bold text-white tracking-tight leading-snug",
+                                            children: card.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 56,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-[12px] font-medium text-slate-200/90 leading-tight mt-0.5",
+                                            children: card.desc
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/BeyondJobs.tsx",
+                                            lineNumber: 57,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                    lineNumber: 61,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 55,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, card.id, true, {
                             fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                            lineNumber: 41,
+                            lineNumber: 40,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/BeyondJobs.tsx",
-                    lineNumber: 39,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this)
             ]
@@ -917,7 +870,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$b
 ;
 function BottomCTA() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "bg-[#1E2B45]",
+        className: "bg-[#0A1128]",
         "aria-label": "Call to action",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative mx-auto max-w-[1400px] px-6 py-6 lg:py-8 overflow-hidden",
@@ -3654,7 +3607,7 @@ function HeroSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "mb-6 text-[clamp(36px,8vw,72px)] font-extrabold leading-[1.05] tracking-[-0.03em] text-[#0F172A]",
+                                    className: "mb-6 text-[clamp(36px,8vw,72px)] font-extrabold leading-[1.05] tracking-[-0.03em] text-[#0f172a]",
                                     children: [
                                         "Real ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
@@ -3715,7 +3668,7 @@ function HeroSection() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                             variant: "outline",
-                                            className: "h-12 w-full sm:w-auto rounded-full border-slate-300 px-8 text-[15px] font-semibold text-[#0F172A] hover:bg-slate-50",
+                                            className: "h-12 w-full sm:w-auto rounded-full border-slate-300 px-8 text-[15px] font-semibold text-[#0f172a] hover:bg-slate-50",
                                             children: "Explore opportunities"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -4269,50 +4222,67 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$
 ;
 ;
 ;
+const bgColors = {
+    briefcase: "bg-rose-50 text-rose-500",
+    user: "bg-blue-50 text-blue-500",
+    trophy: "bg-purple-50 text-purple-500",
+    zap: "bg-sky-50 text-sky-500",
+    graduation: "bg-emerald-50 text-emerald-500",
+    clipboard: "bg-orange-50 text-orange-500",
+    users: "bg-indigo-50 text-indigo-500",
+    star: "bg-fuchsia-50 text-fuchsia-500"
+};
 function CategoryCard({ category, className }) {
     const { type, label, description, iconKey } = category;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
         href: `#${type}`,
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("group relative flex min-w-[150px] flex-col items-center text-center justify-center gap-4 rounded-[16px] bg-white p-5 transition-transform duration-200 hover:-translate-y-1 hover:shadow-md border border-slate-100/50", className),
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("group relative flex min-w-[150px] flex-col items-center text-center justify-center gap-4 rounded-[20px] bg-white p-5 transition-transform duration-200 hover:-translate-y-1 hover:shadow-md border border-slate-200/60 shadow-[0_4px_12px_rgb(0,0,0,0.02)]", className),
         "aria-label": `Explore ${label}`,
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$CategoryIcon$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategoryIcon"], {
-                iconKey: iconKey,
-                className: "h-8 w-8"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("flex h-14 w-14 items-center justify-center rounded-2xl", bgColors[iconKey] || "bg-slate-50"),
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$CategoryIcon$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategoryIcon"], {
+                    iconKey: iconKey,
+                    className: "h-7 w-7"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ui/CategoryCard.tsx",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/CategoryCard.tsx",
-                lineNumber: 22,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex flex-col gap-1 w-full px-1",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-[13px] font-bold text-[#1E293B]",
+                        className: "text-[14px] font-bold text-[#0f172a]",
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/CategoryCard.tsx",
-                        lineNumber: 25,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-[11px] text-[#64748B] leading-snug",
+                        className: "text-[12px] text-slate-500 leading-snug",
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/CategoryCard.tsx",
-                        lineNumber: 26,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/CategoryCard.tsx",
-                lineNumber: 24,
+                lineNumber: 37,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ui/CategoryCard.tsx",
-        lineNumber: 14,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }
@@ -4343,7 +4313,7 @@ const CustomIcons = {
                     width: "14",
                     height: "18",
                     rx: "2",
-                    fill: "#F43F5E"
+                    fill: "currentColor"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
                     lineNumber: 12,
@@ -4379,7 +4349,7 @@ const CustomIcons = {
             height: "32",
             viewBox: "0 0 24 24",
             fill: "none",
-            stroke: "#1E293B",
+            stroke: "currentColor",
             strokeWidth: "1.5",
             strokeLinecap: "round",
             strokeLinejoin: "round",
@@ -4402,7 +4372,8 @@ const CustomIcons = {
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M12 13l-1.5 4h3l-1.5-4z",
-                    fill: "#1E293B"
+                    fill: "currentColor",
+                    stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
                     lineNumber: 21,
@@ -4420,7 +4391,7 @@ const CustomIcons = {
             height: "32",
             viewBox: "0 0 24 24",
             fill: "none",
-            stroke: "#1E293B",
+            stroke: "currentColor",
             strokeWidth: "1.5",
             strokeLinecap: "round",
             strokeLinejoin: "round",
@@ -4462,7 +4433,7 @@ const CustomIcons = {
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M12 6l1 2 2 .5-1.5 1.5.5 2-2-1-2 1 .5-2L9 8.5l2-.5z",
-                    fill: "#1E293B",
+                    fill: "currentColor",
                     stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
@@ -4481,7 +4452,7 @@ const CustomIcons = {
             height: "32",
             viewBox: "0 0 24 24",
             fill: "none",
-            stroke: "#1E293B",
+            stroke: "currentColor",
             strokeWidth: "1.5",
             strokeLinecap: "round",
             strokeLinejoin: "round",
@@ -4518,7 +4489,7 @@ const CustomIcons = {
                     cx: "12",
                     cy: "12",
                     r: "3",
-                    fill: "#1E293B"
+                    fill: "currentColor"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
                     lineNumber: 40,
@@ -4548,7 +4519,7 @@ const CustomIcons = {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z",
-                    stroke: "#1E293B",
+                    stroke: "currentColor",
                     strokeWidth: "1.5",
                     strokeLinecap: "round",
                     strokeLinejoin: "round"
@@ -4559,7 +4530,7 @@ const CustomIcons = {
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M8 9l4 4 4-4",
-                    stroke: "#F43F5E",
+                    stroke: "currentColor",
                     strokeWidth: "2",
                     strokeLinecap: "round",
                     strokeLinejoin: "round"
@@ -4570,7 +4541,7 @@ const CustomIcons = {
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M12 13v4",
-                    stroke: "#F43F5E",
+                    stroke: "currentColor",
                     strokeWidth: "2",
                     strokeLinecap: "round"
                 }, void 0, false, {
@@ -4590,7 +4561,7 @@ const CustomIcons = {
             height: "32",
             viewBox: "0 0 24 24",
             fill: "none",
-            stroke: "#1E293B",
+            stroke: "currentColor",
             strokeWidth: "1.5",
             strokeLinecap: "round",
             strokeLinejoin: "round",
@@ -4648,7 +4619,7 @@ const CustomIcons = {
             height: "32",
             viewBox: "0 0 24 24",
             fill: "none",
-            stroke: "#1E293B",
+            stroke: "currentColor",
             strokeWidth: "1.5",
             strokeLinecap: "round",
             strokeLinejoin: "round",
@@ -4677,16 +4648,27 @@ const CustomIcons = {
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M7 8v4l2-2 2 2V8",
-                    fill: "#F43F5E",
+                    fill: "currentColor",
+                    stroke: "none"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ui/CategoryIcon.tsx",
+                    lineNumber: 64,
+                    columnNumber: 7
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M13 8v4l2-2 2 2V8",
+                    fill: "currentColor",
                     stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
                     lineNumber: 65,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    d: "M13 8v4l2-2 2 2V8",
-                    fill: "#F43F5E",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                    cx: "12",
+                    cy: "14",
+                    r: "1.5",
+                    fill: "currentColor",
                     stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
@@ -4694,33 +4676,25 @@ const CustomIcons = {
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                    cx: "12",
+                    cx: "8",
                     cy: "14",
                     r: "1.5",
-                    fill: "#1E293B"
+                    fill: "currentColor",
+                    stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
                     lineNumber: 67,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                    cx: "8",
-                    cy: "14",
-                    r: "1.5",
-                    fill: "#1E293B"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 68,
-                    columnNumber: 7
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
                     cx: "16",
                     cy: "14",
                     r: "1.5",
-                    fill: "#1E293B"
+                    fill: "currentColor",
+                    stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 69,
+                    lineNumber: 68,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -4735,7 +4709,7 @@ const CustomIcons = {
             height: "32",
             viewBox: "0 0 24 24",
             fill: "none",
-            stroke: "#1E293B",
+            stroke: "currentColor",
             strokeWidth: "1.5",
             strokeLinecap: "round",
             strokeLinejoin: "round",
@@ -4746,7 +4720,7 @@ const CustomIcons = {
                     r: "5"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 74,
+                    lineNumber: 73,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -4755,47 +4729,49 @@ const CustomIcons = {
                     r: "5"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 75,
+                    lineNumber: 74,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M9 14v4a2 2 0 0 0 2 2h2"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 76,
+                    lineNumber: 75,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M16 10V6a2 2 0 0 0-2-2h-2"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 77,
+                    lineNumber: 76,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
                     cx: "9",
                     cy: "9",
                     r: "1",
-                    fill: "#1E293B"
+                    fill: "currentColor",
+                    stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 78,
+                    lineNumber: 77,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
                     cx: "16",
                     cy: "15",
                     r: "1",
-                    fill: "#1E293B"
+                    fill: "currentColor",
+                    stroke: "none"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-                    lineNumber: 79,
+                    lineNumber: 78,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-            lineNumber: 73,
+            lineNumber: 72,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0))
 };
@@ -4805,7 +4781,7 @@ function CategoryIcon({ iconKey, className }) {
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("shrink-0", className)
     }, void 0, false, {
         fileName: "[project]/src/components/ui/CategoryIcon.tsx",
-        lineNumber: 86,
+        lineNumber: 85,
         columnNumber: 10
     }, this);
 }
@@ -4878,7 +4854,7 @@ function OpportunityCard({ opportunity, className }) {
         if (org === "google") {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                 viewBox: "0 0 24 24",
-                className: "w-8 h-8",
+                className: "h-10 w-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                         fill: "#4285F4",
@@ -4922,7 +4898,7 @@ function OpportunityCard({ opportunity, className }) {
         if (org === "microsoft") {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                 viewBox: "0 0 24 24",
-                className: "w-8 h-8",
+                className: "h-9 w-9",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                         fill: "#F25022",
@@ -4967,7 +4943,7 @@ function OpportunityCard({ opportunity, className }) {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                 viewBox: "0 0 24 24",
                 fill: "#FF5A5F",
-                className: "w-8 h-8",
+                className: "h-10 w-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                         d: "M12.015 1.636C8.826 1.636 1.5 6.726 1.5 12.871c0 3.36 2.769 6.088 6.179 6.088 1.933 0 3.738-1.071 4.793-2.868l-.837-.872c-.808 1.41-2.26 2.23-3.956 2.23-2.671 0-4.839-2.128-4.839-4.747 0-4.664 5.922-8.583 9.175-8.583 3.251 0 9.173 3.918 9.173 8.583 0 2.62-2.169 4.747-4.84 4.747-1.696 0-3.148-.82-3.956-2.23l-.838.872c1.056 1.797 2.861 2.868 4.794 2.868 3.409 0 6.178-2.729 6.178-6.088 0-6.145-7.324-11.235-10.511-11.235z"
@@ -4993,8 +4969,23 @@ function OpportunityCard({ opportunity, className }) {
         }
         if (org === "swiggy") {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full h-full flex items-center justify-center bg-[#FC8019] rounded-xl text-white font-bold text-2xl pb-1",
-                children: "S"
+                className: "flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#FC8019] overflow-hidden",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                    viewBox: "0 0 40 40",
+                    className: "h-8 w-8",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        fill: "white",
+                        d: "M20 2C10 2 2 10 2 20c0 11.5 16 19 17.2 19.8.5.3 1.1.3 1.6 0C22 39 38 31.5 38 20 38 10 30 2 20 2zm-2 23c-3 0-5-2.2-5-5s2-5 5-5h1c.6 0 1-.4 1-1s-.4-1-1-1h-4v-2h4c2.8 0 5 2.2 5 5s-2.2 5-5 5h-1c-.6 0-1 .4-1 1s.4 1 1 1h4v2h-4c-2.8 0-5-2.2-5-5v-1h-1z"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                        lineNumber: 60,
+                        columnNumber: 13
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                    lineNumber: 59,
+                    columnNumber: 11
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
                 lineNumber: 58,
@@ -5003,41 +4994,184 @@ function OpportunityCard({ opportunity, className }) {
         }
         if (org === "zomato") {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full h-full flex items-center justify-center bg-[#E23744] rounded-xl text-white font-bold text-2xl italic pb-1",
-                children: "z"
+                className: "flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#E23744]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "font-bold italic text-white text-[12px] tracking-tight",
+                    children: "zomato"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                    lineNumber: 69,
+                    columnNumber: 11
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                lineNumber: 66,
+                lineNumber: 68,
                 columnNumber: 9
             }, this);
         }
         if (org === "flipkart") {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full h-full flex items-center justify-center bg-[#FFC200] rounded-xl text-[#2874F0] font-bold text-2xl italic pb-1",
-                children: "f"
+                className: "flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#FFC200]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                    viewBox: "0 0 40 40",
+                    className: "h-7 w-7",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            fill: "#2874F0",
+                            d: "M12.5 7.5L25 5l-2.5 10-10 2.5z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 78,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            fill: "#2874F0",
+                            d: "M27.5 17.5L22.5 35l-7.5-2.5 5-15z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 79,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                            cx: "15",
+                            cy: "35",
+                            r: "3",
+                            fill: "#2874F0"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 80,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                            cx: "27",
+                            cy: "35",
+                            r: "3",
+                            fill: "#2874F0"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 81,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            fill: "#2874F0",
+                            d: "M5 10h10v5H5z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 82,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                    lineNumber: 77,
+                    columnNumber: 11
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                lineNumber: 74,
+                lineNumber: 76,
                 columnNumber: 9
             }, this);
         }
         if (org === "deloitte") {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full h-full flex items-center justify-center bg-black rounded-xl text-white font-bold text-[10px]",
-                children: [
-                    "Deloitte",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-[#86BC25]",
-                        children: "."
+                className: "flex h-11 w-11 items-center justify-center rounded-[10px] bg-black",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "font-extrabold text-white text-[9px] tracking-tight",
+                    children: [
+                        "Deloitte",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "text-[#86BC25]",
+                            children: "."
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 91,
+                            columnNumber: 89
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                    lineNumber: 91,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                lineNumber: 90,
+                columnNumber: 9
+            }, this);
+        }
+        if (org === "razorpay") {
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#02042B]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                    viewBox: "0 0 24 24",
+                    className: "h-6 w-6",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            fill: "#3395FF",
+                            d: "M5 21h14L10 3H5l5 9-5 9z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 100,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            fill: "#3395FF",
+                            d: "M14.5 12l-2.5 4.5h5l2.5-4.5h-5z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                            lineNumber: 101,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                    lineNumber: 99,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                lineNumber: 98,
+                columnNumber: 9
+            }, this);
+        }
+        if (org === "jio") {
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex h-11 w-11 items-center justify-center rounded-[10px] bg-white border border-slate-200 shadow-sm p-[3px]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex h-full w-full items-center justify-center rounded-full bg-[#0F3082]",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "font-bold text-[#E31837] text-[13px]",
+                        children: "Jio"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                        lineNumber: 83,
-                        columnNumber: 19
+                        lineNumber: 111,
+                        columnNumber: 14
                     }, this)
-                ]
-            }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                    lineNumber: 110,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                lineNumber: 82,
+                lineNumber: 109,
+                columnNumber: 9
+            }, this);
+        }
+        if (org === "oyo") {
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#EC1F27]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "font-extrabold text-white text-[16px] tracking-tighter",
+                    children: "OYO"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                    lineNumber: 120,
+                    columnNumber: 12
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/ui/OpportunityCard.tsx",
+                lineNumber: 119,
                 columnNumber: 9
             }, this);
         }
@@ -5048,7 +5182,7 @@ function OpportunityCard({ opportunity, className }) {
             children: logoVariant.split("-")[1]?.charAt(0).toUpperCase() || title.charAt(0)
         }, void 0, false, {
             fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-            lineNumber: 91,
+            lineNumber: 128,
             columnNumber: 7
         }, this);
     };
@@ -5064,7 +5198,7 @@ function OpportunityCard({ opportunity, className }) {
                         children: renderLogo()
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                        lineNumber: 109,
+                        lineNumber: 146,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5075,7 +5209,7 @@ function OpportunityCard({ opportunity, className }) {
                                 children: title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                                lineNumber: 115,
+                                lineNumber: 152,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5083,7 +5217,7 @@ function OpportunityCard({ opportunity, className }) {
                                 children: organization
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                                lineNumber: 116,
+                                lineNumber: 153,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5093,7 +5227,7 @@ function OpportunityCard({ opportunity, className }) {
                                         size: 14
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 155,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5101,19 +5235,19 @@ function OpportunityCard({ opportunity, className }) {
                                         children: location
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                                        lineNumber: 119,
+                                        lineNumber: 156,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                                lineNumber: 117,
+                                lineNumber: 154,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                        lineNumber: 114,
+                        lineNumber: 151,
                         columnNumber: 9
                     }, this),
                     badges && badges.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5123,18 +5257,18 @@ function OpportunityCard({ opportunity, className }) {
                                 children: b
                             }, b, false, {
                                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                                lineNumber: 127,
+                                lineNumber: 164,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                        lineNumber: 125,
+                        lineNumber: 162,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                lineNumber: 107,
+                lineNumber: 144,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5145,7 +5279,7 @@ function OpportunityCard({ opportunity, className }) {
                         children: timeLabel
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                        lineNumber: 137,
+                        lineNumber: 174,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5156,24 +5290,24 @@ function OpportunityCard({ opportunity, className }) {
                             strokeWidth: 2.5
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                            lineNumber: 139,
+                            lineNumber: 176,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                        lineNumber: 138,
+                        lineNumber: 175,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-                lineNumber: 136,
+                lineNumber: 173,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ui/OpportunityCard.tsx",
-        lineNumber: 98,
+        lineNumber: 135,
         columnNumber: 5
     }, this);
 }
@@ -5201,6 +5335,7 @@ const buttonVariants = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_
     variants: {
         variant: {
             default: "bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 hover:border-blue-700 hover:shadow-[0_4px_16px_rgba(37,99,235,0.3)] hover:-translate-y-px active:translate-y-0",
+            outline: "border border-slate-200 bg-transparent hover:bg-slate-50 hover:text-slate-900 text-slate-700",
             ghost: "bg-transparent text-slate-700 border border-slate-200 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-900",
             link: "bg-transparent text-blue-600 underline-offset-4 hover:underline border-0 p-0 h-auto",
             icon: "rounded-full border border-slate-200 bg-white text-slate-500 hover:bg-blue-600 hover:border-blue-600 hover:text-white hover:shadow-[0_4px_12px_rgba(37,99,235,0.3)] hover:scale-110 active:scale-100"
@@ -5230,7 +5365,7 @@ const Button = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$nod
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ui/button.tsx",
-        lineNumber: 40,
+        lineNumber: 42,
         columnNumber: 7
     }, ("TURBOPACK compile-time value", void 0));
 });

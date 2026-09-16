@@ -18,7 +18,7 @@ export function HeroSection() {
               FOR INDIA'S NEXT GENERATION
             </span>
 
-            <h1 className="mb-6 text-[clamp(36px,8vw,72px)] font-extrabold leading-[1.05] tracking-[-0.03em] text-[#0F172A]">
+            <h1 className="mb-6 text-[clamp(36px,8vw,72px)] font-extrabold leading-[1.05] tracking-[-0.03em] text-[#0f172a]">
               Real <br className="hidden sm:block" />
               opportunities. <br />
               <span className="font-serif italic text-[#DC2626]">A brighter you.</span>
@@ -33,7 +33,7 @@ export function HeroSection() {
                 Get started for free
                 <ArrowRight size={16} className="ml-2" />
               </Button>
-              <Button variant="outline" className="h-12 w-full sm:w-auto rounded-full border-slate-300 px-8 text-[15px] font-semibold text-[#0F172A] hover:bg-slate-50">
+              <Button variant="outline" className="h-12 w-full sm:w-auto rounded-full border-slate-300 px-8 text-[15px] font-semibold text-[#0f172a] hover:bg-slate-50">
                 Explore opportunities
               </Button>
             </div>

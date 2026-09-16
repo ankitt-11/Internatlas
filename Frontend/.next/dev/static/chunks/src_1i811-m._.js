@@ -70,7 +70,7 @@ function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("sticky top-0 z-50 h-14 md:h-16 transition-all duration-200", scrolled ? "bg-white/95 shadow-sm backdrop-blur-md" : "bg-transparent"),
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("sticky top-0 z-50 h-16 md:h-20 transition-all duration-200", scrolled ? "bg-white/95 shadow-sm backdrop-blur-md" : "bg-transparent"),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mx-auto flex h-full max-w-[1400px] items-center justify-between px-6",
                     children: [
@@ -104,11 +104,11 @@ function Header() {
                                     onClick: closeMenu,
                                     className: "flex items-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[22px] font-bold tracking-tight text-[#1E293B]",
+                                        className: "text-[24px] font-bold tracking-tight text-[#0f172a]",
                                         children: [
                                             "Intern",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-[#2563EB]",
+                                                className: "text-blue-600",
                                                 children: "Atlas."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/layout/Header.tsx",
@@ -131,7 +131,7 @@ function Header() {
                                     className: "hidden lg:flex items-center gap-8",
                                     children: NAV_LINKS.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             href: link.href,
-                                            className: "text-[14px] font-medium text-slate-500 transition-colors hover:text-slate-900",
+                                            className: "text-[14px] font-semibold text-slate-600 transition-colors hover:text-[#0f172a]",
                                             children: link.label
                                         }, link.href, false, {
                                             fileName: "[project]/src/components/layout/Header.tsx",
@@ -153,10 +153,10 @@ function Header() {
                             className: "hidden items-center gap-4 lg:flex",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "flex h-11 w-11 items-center justify-center rounded-full border border-blue-100/60 bg-white text-[#1E293B] shadow-sm transition-colors hover:bg-slate-50 hover:border-slate-300",
+                                    className: "flex h-[42px] w-[42px] items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition-colors hover:bg-slate-50",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
                                         size: 18,
-                                        strokeWidth: 2.5
+                                        strokeWidth: 2
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Header.tsx",
                                         lineNumber: 66,
@@ -169,7 +169,7 @@ function Header() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                     variant: "outline",
-                                    className: "h-11 rounded-full border-blue-100/60 bg-white px-7 font-bold text-[#1E293B] shadow-sm hover:bg-slate-50 hover:border-slate-300",
+                                    className: "h-[42px] rounded-full border-slate-200 bg-white px-7 font-semibold text-[#0f172a] shadow-sm hover:bg-slate-50",
                                     asChild: true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "#login",
@@ -185,7 +185,7 @@ function Header() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                    className: "h-11 rounded-full bg-[#1E293B] px-7 font-bold text-white shadow-sm hover:bg-slate-800",
+                                    className: "h-[42px] rounded-full bg-[#0f172a] px-7 font-semibold text-white shadow-sm hover:bg-slate-800",
                                     asChild: true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "#signup",
@@ -960,6 +960,7 @@ const buttonVariants = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_
     variants: {
         variant: {
             default: "bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 hover:border-blue-700 hover:shadow-[0_4px_16px_rgba(37,99,235,0.3)] hover:-translate-y-px active:translate-y-0",
+            outline: "border border-slate-200 bg-transparent hover:bg-slate-50 hover:text-slate-900 text-slate-700",
             ghost: "bg-transparent text-slate-700 border border-slate-200 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-900",
             link: "bg-transparent text-blue-600 underline-offset-4 hover:underline border-0 p-0 h-auto",
             icon: "rounded-full border border-slate-200 bg-white text-slate-500 hover:bg-blue-600 hover:border-blue-600 hover:text-white hover:shadow-[0_4px_12px_rgba(37,99,235,0.3)] hover:scale-110 active:scale-100"
@@ -989,7 +990,7 @@ const Button = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$nod
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ui/button.tsx",
-        lineNumber: 40,
+        lineNumber: 42,
         columnNumber: 7
     }, ("TURBOPACK compile-time value", void 0));
 });

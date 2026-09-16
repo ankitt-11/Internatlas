@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function BottomCTA() {
   return (
-    <section className="bg-[#1E2B45]" aria-label="Call to action">
+    <section className="bg-[#0A1128]" aria-label="Call to action">
       {/* Container */}
       <div className="relative mx-auto max-w-[1400px] px-6 py-6 lg:py-8 overflow-hidden">
         

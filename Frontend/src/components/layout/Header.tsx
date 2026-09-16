@@ -32,7 +32,7 @@ export function Header() {
 
   return (
     <>
-      <header className={cn("sticky top-0 z-50 h-14 md:h-16 transition-all duration-200", scrolled ? "bg-white/95 shadow-sm backdrop-blur-md" : "bg-transparent")}>
+      <header className={cn("sticky top-0 z-50 h-16 md:h-20 transition-all duration-200", scrolled ? "bg-white/95 shadow-sm backdrop-blur-md" : "bg-transparent")}>
         <div className="mx-auto flex h-full max-w-[1400px] items-center justify-between px-6">
           
           {/* Left Side: Logo & Desktop Nav */}
@@ -45,15 +45,15 @@ export function Header() {
 
             {/* Logo */}
             <Link href="/" aria-label="InternAtlas home" onClick={closeMenu} className="flex items-center">
-              <span className="text-[22px] font-bold tracking-tight text-[#1E293B]">
-                Intern<span className="text-[#2563EB]">Atlas.</span>
+              <span className="text-[24px] font-bold tracking-tight text-[#0f172a]">
+                Intern<span className="text-blue-600">Atlas.</span>
               </span>
             </Link>
             
             {/* Desktop Nav */}
             <nav aria-label="Primary navigation" className="hidden lg:flex items-center gap-8">
               {NAV_LINKS.map((link) => (
-                <Link key={link.href} href={link.href} className="text-[14px] font-medium text-slate-500 transition-colors hover:text-slate-900">
+                <Link key={link.href} href={link.href} className="text-[14px] font-semibold text-slate-600 transition-colors hover:text-[#0f172a]">
                   {link.label}
                 </Link>
               ))}
@@ -62,13 +62,13 @@ export function Header() {
 
           {/* Right Side: Actions */}
           <div className="hidden items-center gap-4 lg:flex">
-            <button className="flex h-11 w-11 items-center justify-center rounded-full border border-blue-100/60 bg-white text-[#1E293B] shadow-sm transition-colors hover:bg-slate-50 hover:border-slate-300">
-              <Search size={18} strokeWidth={2.5} />
+            <button className="flex h-[42px] w-[42px] items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition-colors hover:bg-slate-50">
+              <Search size={18} strokeWidth={2} />
             </button>
-            <Button variant="outline" className="h-11 rounded-full border-blue-100/60 bg-white px-7 font-bold text-[#1E293B] shadow-sm hover:bg-slate-50 hover:border-slate-300" asChild>
+            <Button variant="outline" className="h-[42px] rounded-full border-slate-200 bg-white px-7 font-semibold text-[#0f172a] shadow-sm hover:bg-slate-50" asChild>
               <Link href="#login">Log in</Link>
             </Button>
-            <Button className="h-11 rounded-full bg-[#1E293B] px-7 font-bold text-white shadow-sm hover:bg-slate-800" asChild>
+            <Button className="h-[42px] rounded-full bg-[#0f172a] px-7 font-semibold text-white shadow-sm hover:bg-slate-800" asChild>
               <Link href="#signup">Sign up</Link>
             </Button>
           </div>
