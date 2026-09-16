@@ -32,7 +32,7 @@ export function Header() {
 
   return (
     <>
-      <header className={cn("sticky top-0 z-50 h-16 md:h-20 transition-all duration-200", scrolled ? "bg-white/95 shadow-sm backdrop-blur-md" : "bg-transparent")}>
+      <header className={cn("sticky top-0 z-50 h-16 md:h-16 transition-all duration-200", scrolled ? "bg-white/95 shadow-sm backdrop-blur-md" : "bg-transparent")}>
         <div className="mx-auto flex h-full max-w-[1400px] items-center justify-between px-6">
           
           {/* Left Side: Logo & Desktop Nav */}

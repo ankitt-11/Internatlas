@@ -12,13 +12,13 @@ export function OpportunityCard({ opportunity, className }: OpportunityCardProps
 
   // Generic logo colored backgrounds
   const getLogoBg = (variant: string) => {
-    if (variant.includes("yellow")) return "bg-yellow-400 text-white";
-    if (variant.includes("orange")) return "bg-orange-500 text-white";
-    if (variant.includes("blue")) return "bg-blue-600 text-white";
-    if (variant.includes("red")) return "bg-red-500 text-white";
-    if (variant.includes("green")) return "bg-emerald-500 text-white";
-    if (variant.includes("purple") || variant.includes("pink")) return "bg-purple-600 text-white";
-    return "bg-slate-800 text-white";
+    if (variant.includes("yellow")) return "bg-pink text-white";
+    if (variant.includes("orange")) return "bg-cyan text-primary";
+    if (variant.includes("blue")) return "bg-blue text-white";
+    if (variant.includes("red")) return "bg-editorial-red text-white";
+    if (variant.includes("green")) return "bg-cyan-light text-primary";
+    if (variant.includes("purple") || variant.includes("pink")) return "bg-pink-soft text-pink";
+    return "bg-deep-navy text-white";
   };
 
   // Real logos for known companies
@@ -134,34 +134,34 @@ export function OpportunityCard({ opportunity, className }: OpportunityCardProps
   return (
     <article
       className={cn(
-        "group relative flex flex-col justify-between rounded-[20px] border border-slate-200/60 bg-white p-5",
+        "group relative flex flex-col justify-between rounded-2xl border border-border bg-white p-4 shadow-card",
         "transition-all duration-200 cursor-pointer",
-        "hover:-translate-y-1 hover:border-slate-300 hover:shadow-lg",
+        "hover:-translate-y-1 hover:border-cyan-light hover:shadow-hover",
         className
       )}
       tabIndex={0}
     >
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3">
         {/* Logo */}
-        <div className="flex h-12 w-12 items-center justify-center">
+        <div className="flex h-10 w-10 items-center justify-center">
           {renderLogo()}
         </div>
 
         {/* Title & Org */}
-        <div className="flex flex-col gap-1 mt-1">
-          <h3 className="text-[16px] font-bold leading-snug text-slate-900">{title}</h3>
-          <p className="text-[13px] font-medium text-slate-500">{organization}</p>
-          <div className="flex items-center gap-1.5 mt-1 text-slate-500">
-            <MapPin size={14} />
-            <span className="text-[12px]">{location}</span>
+        <div className="flex flex-col mt-1">
+          <h3 className="text-[15px] font-bold leading-snug text-text-primary">{title}</h3>
+          <p className="mt-0.5 text-[12.5px] font-medium text-text-secondary">{organization}</p>
+          <div className="flex items-center gap-1.5 mt-1.5 text-text-secondary">
+            <MapPin size={13} />
+            <span className="text-[11.5px] font-medium">{location}</span>
           </div>
         </div>
 
         {/* Badges */}
         {badges && badges.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-2">
+          <div className="flex flex-wrap gap-2 mt-1">
             {badges.map((b) => (
-              <span key={b} className="rounded-full bg-blue-50 px-3 py-1 text-[11px] font-bold text-blue-600">
+              <span key={b} className="rounded-full border border-border-light bg-background px-2.5 py-0.5 text-[10px] font-bold text-blue">
                 {b}
               </span>
             ))}
@@ -170,10 +170,10 @@ export function OpportunityCard({ opportunity, className }: OpportunityCardProps
       </div>
 
       {/* Footer */}
-      <div className="mt-8 flex items-center justify-between border-t border-slate-100 pt-4">
-        <span className="text-[12px] font-semibold text-slate-400">{timeLabel}</span>
-        <button className="text-slate-400 transition-colors hover:text-blue-600" aria-label="Save opportunity">
-          <Bookmark size={16} strokeWidth={2.5} />
+      <div className="mt-6 flex items-center justify-between border-t border-border-light pt-3">
+        <span className="text-[11.5px] font-semibold text-text-muted">{timeLabel}</span>
+        <button className="text-text-muted transition-colors hover:text-blue" aria-label="Save opportunity">
+          <Bookmark size={15} strokeWidth={2.5} />
         </button>
       </div>
     </article>

@@ -18,7 +18,7 @@ export function LatestOpportunities({ opportunities }: LatestOpportunitiesProps)
           title="Latest opportunities"
           subtitle="Handpicked from companies, organizations and campuses."
           action={
-            <Link href="#all" className="group inline-flex items-center gap-1.5 text-[14px] font-semibold text-blue-600 transition-all hover:text-blue-700">
+            <Link href="#all" className="group inline-flex items-center gap-1.5 text-[14px] font-semibold text-blue transition-all hover:text-blue-hover">
               View all <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
             </Link>
           }

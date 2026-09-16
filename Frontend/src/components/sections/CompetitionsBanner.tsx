@@ -3,41 +3,41 @@ import { Button } from "@/components/ui/button";
 
 export function CompetitionsBanner() {
   return (
-    <section className="py-2 lg:py-3 bg-transparent" aria-label="Competitions">
+    <section className="pt-0 pb-2 lg:pb-3 bg-transparent" aria-label="Competitions">
       <div className="mx-auto max-w-[1400px] px-6">
         
         {/* Banner Container */}
-        <div className="relative flex flex-col justify-between overflow-hidden rounded-[20px] bg-[#0A1128] p-8 lg:h-[400px] lg:flex-row lg:p-12 xl:px-16">
+        <div className="relative flex flex-col justify-between overflow-hidden rounded-[20px] bg-deep-navy p-6 lg:py-5 lg:px-10 lg:flex-row xl:px-12">
           
           {/* Abstract Geometric Background (Right Side) */}
           <div className="absolute right-0 top-0 h-full w-[50%] pointer-events-none opacity-80 mix-blend-screen overflow-hidden">
-            <div className="absolute right-[-10%] top-[-20%] h-[300px] w-[300px] rotate-12 bg-gradient-to-br from-blue-500/20 to-transparent blur-2xl" />
-            <div className="absolute bottom-[-20%] right-[10%] h-[400px] w-[200px] -rotate-12 bg-gradient-to-t from-blue-600/40 to-transparent blur-3xl" />
+            <div className="absolute right-[-10%] top-[-20%] h-[300px] w-[300px] rotate-12 bg-gradient-to-br from-blue/20 to-transparent blur-2xl" />
+            <div className="absolute bottom-[-20%] right-[10%] h-[400px] w-[200px] -rotate-12 bg-gradient-to-t from-blue/40 to-transparent blur-3xl" />
             {/* Some sharper geometric shapes */}
-            <div className="absolute bottom-0 right-[20%] h-[150px] w-[150px] rotate-45 bg-blue-600/20 backdrop-blur-md" />
-            <div className="absolute bottom-[20%] right-[5%] h-[200px] w-[200px] rotate-12 bg-blue-500/10 backdrop-blur-sm border border-blue-400/20" />
-            <div className="absolute top-[10%] right-[30%] h-[100px] w-[100px] rotate-45 bg-cyan-500/10 blur-xl" />
+            <div className="absolute bottom-0 right-[20%] h-[150px] w-[150px] rotate-45 bg-blue/20 backdrop-blur-md" />
+            <div className="absolute bottom-[20%] right-[5%] h-[200px] w-[200px] rotate-12 bg-blue/10 backdrop-blur-sm border border-blue/20" />
+            <div className="absolute top-[10%] right-[30%] h-[100px] w-[100px] rotate-45 bg-cyan/10 blur-xl" />
           </div>
           
           {/* ── Left Column: Text & CTA ──────────────────────────────── */}
-          <div className="relative z-10 flex w-full max-w-[360px] flex-col justify-center">
-            <span className="mb-3 text-[11px] font-bold uppercase tracking-widest text-[#38BDF8]">
-              HAPPENING NOW
+          <div className="relative z-10 flex w-full max-w-[400px] flex-col justify-center">
+            <span className="mb-3 text-[18px] font-bold uppercase tracking-widest text-cyan">
+              COMPETITIONS
             </span>
             <h2 className="mb-4 text-[32px] font-bold leading-[1.2] tracking-tight text-white md:text-[36px]">
               Competitions to showcase <br />
-              <span className="text-[#38BDF8]">your skills.</span>
+              <span className="text-cyan">your skills.</span>
             </h2>
-            <p className="mb-8 text-[14px] leading-relaxed text-slate-300 opacity-90 max-w-[320px]">
+            <p className="mb-8 text-[14px] leading-relaxed text-border opacity-90 max-w-[320px]">
               From case challenges to ideathons — showcase your skills, win exciting rewards, and get noticed by top companies.
             </p>
-            <Button className="w-max rounded-full bg-[#3B82F6] px-6 h-10 text-[13px] font-semibold text-white hover:bg-blue-600 shadow-[0_4px_14px_rgba(59,130,246,0.4)] transition-all">
+            <Button className="w-max px-6 h-10 text-[13px]">
               Explore competitions <ArrowRight size={14} className="ml-1.5" />
             </Button>
           </div>
 
           {/* ── Middle Column: Phone Mockup ──────────────────────────── */}
-          <div className="relative z-10 hidden w-[280px] shrink-0 lg:flex items-end justify-center">
+          <div className="relative z-10 hidden w-[280px] shrink-0 lg:flex items-center justify-center">
             
             {/* 3D Geometric Background Structures */}
             <div className="absolute inset-0 z-0 flex items-end justify-center pointer-events-none">
@@ -80,13 +80,13 @@ export function CompetitionsBanner() {
             </div>
 
             {/* The Phone Device */}
-            <div className="relative z-10 mb-[-48px] h-[340px] w-[200px] rounded-t-[28px] bg-gradient-to-br from-[#497BBF] via-[#2A4B8D] to-[#122146] p-[2px] shadow-2xl">
+            <div className="relative z-10 mb-[-20px] lg:mb-[-20px] h-[340px] w-[200px] rounded-t-[28px] bg-gradient-to-br from-[#497BBF] via-[#2A4B8D] to-[#122146] p-[2px] shadow-2xl">
               
               {/* Inner Bezel */}
               <div className="relative h-full w-full overflow-hidden rounded-t-[26px] bg-[#11203E] border border-black/40">
                 
                 {/* Screen Background */}
-                <div className="absolute inset-0 bg-gradient-to-b from-[#1C3A62] via-[#162A4A] to-[#11203E]">
+                <div className="absolute inset-0 bg-gradient-to-b from-[#1E3A5F] via-[#1C3A62] to-[#11203E]">
                   {/* Subtle radial glow */}
                   <div className="absolute top-[20%] left-1/2 h-[150px] w-[150px] -translate-x-1/2 rounded-full bg-blue-400/10 blur-[30px]" />
                 </div>
@@ -109,7 +109,7 @@ export function CompetitionsBanner() {
 
                 {/* Screen Content */}
                 <div className="flex h-full flex-col items-center justify-center">
-                  <span className="text-[20px] font-bold leading-[1.6] tracking-wide text-white drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
+                  <span className="text-[22px] font-extrabold leading-[1.6] tracking-wide text-white drop-shadow-[0_8px_16px_rgba(0,0,0,0.9)]">
                     Solve <br />
                     Build <br />
                     Present <br />
@@ -136,24 +136,24 @@ export function CompetitionsBanner() {
                 View all competitions <ArrowRight size={14} className="mt-0.5" />
               </span>
               <div className="flex gap-2">
-                <button className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10 bg-[#0A1128] text-white hover:bg-white/10 transition-colors">
+                <button className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10 bg-deep-navy text-white hover:bg-white/10 transition-colors">
                   <ChevronLeft size={14} />
                 </button>
-                <button className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10 bg-[#0A1128] text-white hover:bg-white/10 transition-colors">
+                <button className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10 bg-deep-navy text-white hover:bg-white/10 transition-colors">
                   <ChevronRight size={14} />
                 </button>
               </div>
             </div>
 
             {/* Cards */}
-            <div className="flex flex-col gap-2.5">
+            <div className="flex flex-col gap-4">
               {[
                 { 
                   title: "Unstop Design Challenge 2025", 
                   org: "Unstop", 
                   date: "Oct 5 – Nov 2, 2025", 
                   logo: (
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#1C4ED8]">
+                    <div className="flex h-[46px] w-[46px] shrink-0 items-center justify-center rounded-full bg-[#1C4ED8]">
                       <span className="text-white font-bold text-[14px] leading-none tracking-tighter">un</span>
                     </div>
                   )
@@ -163,8 +163,8 @@ export function CompetitionsBanner() {
                   org: "Google", 
                   date: "Oct 20 – Dec 10, 2025", 
                   logo: (
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_0_0_1px_rgba(0,0,0,0.05)]">
-                      <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <div className="flex h-[46px] w-[46px] shrink-0 items-center justify-center rounded-full bg-white shadow-[0_0_0_1px_rgba(0,0,0,0.05)]">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
                         <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
                         <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
@@ -178,8 +178,8 @@ export function CompetitionsBanner() {
                   org: "Adobe", 
                   date: "Oct 12 – Nov 15, 2025", 
                   logo: (
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#FF0000]">
-                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className="flex h-[46px] w-[46px] shrink-0 items-center justify-center rounded-[14px] bg-[#FF0000]">
+                      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14.92 2.5H23V21.5L14.92 2.5Z" fill="white"/>
                         <path d="M9.08 2.5H1V21.5L9.08 2.5Z" fill="white"/>
                         <path d="M12 9.5L15.65 18.5H12L10.5 15H7.5L12 9.5Z" fill="white"/>
@@ -188,16 +188,16 @@ export function CompetitionsBanner() {
                   )
                 }
               ].map((comp, i) => (
-                <div key={i} className="flex cursor-pointer items-center justify-between rounded-[12px] bg-white p-3.5 shadow-sm transition-transform hover:scale-[1.02]">
+                <div key={i} className="flex cursor-pointer items-center justify-between rounded-md bg-white p-4 border border-border shadow-card transition-all hover:-translate-y-1 hover:shadow-hover hover:border-cyan-light">
                   <div className="flex items-start gap-4">
                     {comp.logo}
                     <div className="flex flex-col justify-center">
-                      <span className="text-[14px] font-bold text-slate-900 leading-tight mb-0.5">{comp.title}</span>
-                      <span className="text-[12px] font-medium text-slate-500 leading-snug">{comp.org}</span>
-                      <span className="text-[12px] font-medium text-slate-500 leading-snug">{comp.date}</span>
+                      <span className="text-[14px] font-bold text-text-primary leading-tight mb-0.5">{comp.title}</span>
+                      <span className="text-[12px] font-medium text-text-secondary leading-snug">{comp.org}</span>
+                      <span className="text-[12px] font-medium text-text-secondary leading-snug">{comp.date}</span>
                     </div>
                   </div>
-                  <ChevronRight size={16} className="text-[#3B82F6] shrink-0 mr-1" strokeWidth={2.5} />
+                  <ChevronRight size={16} className="text-blue shrink-0 mr-1" strokeWidth={2.5} />
                 </div>
               ))}
             </div>

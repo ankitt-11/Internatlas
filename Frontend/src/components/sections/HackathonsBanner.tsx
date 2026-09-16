@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 
 export function HackathonsBanner() {
   return (
-    <section className="py-2 lg:py-3 bg-transparent" aria-label="Hackathons">
+    <section className="pt-0 pb-2 lg:pb-3 bg-transparent" aria-label="Hackathons">
       <div className="mx-auto max-w-[1400px] px-6">
         
         {/* Banner Container */}
-        <div className="relative flex flex-col justify-between overflow-hidden rounded-[20px] bg-gradient-to-r from-[#F0F4FD] to-white p-8 lg:h-[400px] lg:flex-row lg:p-12 xl:px-16 border border-[#E2E8F0]/50 shadow-sm">
+        <div className="relative flex flex-col justify-between overflow-hidden rounded-[20px] bg-[linear-gradient(to_right,var(--color-blue-surface),var(--color-white))] p-6 lg:py-5 lg:px-10 lg:flex-row xl:px-12 border border-border shadow-card">
           
           {/* Abstract Background Elements */}
           <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -33,17 +33,17 @@ export function HackathonsBanner() {
           
           {/* ── Left Column: Text & CTA ──────────────────────────────── */}
           <div className="relative z-10 flex w-full max-w-[360px] flex-col justify-center">
-            <span className="mb-3 text-[11px] font-bold uppercase tracking-widest text-[#38BDF8]">
+            <span className="mb-3 text-[18px] font-bold uppercase tracking-widest text-cyan">
               HACKATHONS
             </span>
-            <h2 className="mb-4 text-[34px] font-extrabold leading-[1.1] tracking-tight text-[#1E293B] md:text-[38px]">
+            <h2 className="mb-4 text-[34px] font-extrabold leading-[1.1] tracking-tight text-primary md:text-[38px]">
               Build today <br />
-              for a brighter <span className="font-serif italic text-[#E11D48]">tomorrow.</span>
+              for a brighter <span className="font-serif italic font-normal text-editorial-red">tomorrow.</span>
             </h2>
-            <p className="mb-8 text-[14.5px] leading-relaxed text-[#475569] max-w-[340px]">
+            <p className="mb-8 text-[14.5px] leading-relaxed text-text-secondary max-w-[340px]">
               Turn your ideas into impact. Join hackathons, work with amazing peers, and solve real-world problems.
             </p>
-            <Button className="w-max rounded-full bg-[#3B82F6] px-6 h-10 text-[13px] font-semibold text-white hover:bg-blue-600 shadow-md shadow-blue-500/20 transition-all">
+            <Button className="w-max px-6 h-10 text-[13px]">
               Explore hackathons <ArrowRight size={14} className="ml-1.5" />
             </Button>
           </div>
@@ -63,7 +63,7 @@ export function HackathonsBanner() {
             </div>
 
             {/* The Laptop */}
-            <div className="relative mt-24 z-10">
+            <div className="relative mb-[-20px] lg:mb-[-20px] mt-16 z-10">
               {/* Screen */}
               <div className="h-[120px] w-[200px] rounded-t-xl border-[4px] border-slate-300 bg-gradient-to-br from-blue-100 to-blue-50 p-1 shadow-inner relative overflow-hidden">
                 <div className="absolute inset-0 bg-blue-500/10" />
@@ -75,16 +75,16 @@ export function HackathonsBanner() {
             </div>
 
             {/* Floating Tags */}
-            <div className="absolute left-[-20px] top-[40px] z-40 rotate-[-8deg] rounded-[10px] bg-white px-4 py-2 shadow-lg border border-slate-100">
-              <span className="font-hand text-[#1E293B] text-[20px] font-medium leading-none">Innovate</span>
+            <div className="absolute left-[-20px] top-[40px] z-40 rotate-[-8deg] rounded-[10px] bg-white px-4 py-2 shadow-lg border border-border">
+              <span className="font-hand text-primary text-[20px] font-medium leading-none">Innovate</span>
             </div>
             
-            <div className="absolute right-[-10px] top-[80px] z-40 rotate-[5deg] rounded-[10px] bg-white px-4 py-2 shadow-lg border border-slate-100">
-              <span className="font-hand text-[#1E293B] text-[20px] font-medium leading-none">Collaborate</span>
+            <div className="absolute right-[-10px] top-[80px] z-40 rotate-[5deg] rounded-[10px] bg-white px-4 py-2 shadow-lg border border-border">
+              <span className="font-hand text-primary text-[20px] font-medium leading-none">Collaborate</span>
             </div>
 
-            <div className="absolute right-[0px] bottom-[20px] z-40 rotate-[-5deg] rounded-[10px] bg-white px-4 py-2 shadow-lg border border-slate-100">
-              <span className="font-hand text-[#1E293B] text-[20px] font-medium leading-tight block text-center">
+            <div className="absolute right-[0px] bottom-[20px] z-40 rotate-[-5deg] rounded-[10px] bg-white px-4 py-2 shadow-lg border border-border">
+              <span className="font-hand text-primary text-[20px] font-medium leading-tight block text-center">
                 Create <br /> Impact
               </span>
             </div>
@@ -96,14 +96,14 @@ export function HackathonsBanner() {
             
             {/* Header for list */}
             <div className="mb-4 flex items-center justify-end gap-4">
-              <span className="text-[#1E293B] font-bold text-[13px] flex items-center gap-1 cursor-pointer hover:text-blue-600 transition-colors">
+              <span className="text-primary font-bold text-[13px] flex items-center gap-1 cursor-pointer hover:text-blue transition-colors">
                 View all hackathons <ArrowRight size={14} className="mt-0.5" />
               </span>
               <div className="flex gap-2">
-                <button className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 transition-colors shadow-sm">
+                <button className="flex h-8 w-8 items-center justify-center rounded-full border border-border bg-white text-text-secondary hover:bg-background transition-colors shadow-sm">
                   <ChevronLeft size={16} />
                 </button>
-                <button className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 transition-colors shadow-sm">
+                <button className="flex h-8 w-8 items-center justify-center rounded-full border border-border bg-white text-text-secondary hover:bg-background transition-colors shadow-sm">
                   <ChevronRight size={16} />
                 </button>
               </div>
@@ -116,7 +116,7 @@ export function HackathonsBanner() {
               <div className="flex flex-col sm:flex-row gap-3 w-full">
                 
                 {/* SIH Card */}
-                <div className="flex flex-col justify-between rounded-[16px] bg-white p-4 shadow-sm border border-slate-100 flex-[1.2] cursor-pointer hover:shadow-md transition-shadow">
+                <div className="flex flex-col justify-between rounded-md bg-white p-4 shadow-card border border-border flex-[1.2] cursor-pointer hover:shadow-hover hover:border-cyan-light transition-all hover:-translate-y-1">
                   <div className="flex items-start gap-3 relative">
                     {/* SVG for SIH */}
                     <div className="flex h-8 w-8 shrink-0 items-center justify-center">
@@ -126,20 +126,20 @@ export function HackathonsBanner() {
                       </svg>
                     </div>
                     <div className="flex flex-col pr-4">
-                      <span className="text-[13px] font-bold text-[#1E293B] leading-tight mb-0.5">Smart India Hackathon</span>
-                      <span className="text-[11px] text-[#64748B] mb-0.5">Government of India</span>
-                      <span className="text-[11px] text-[#64748B]">Sep 19 – 23, 2025</span>
+                      <span className="text-[13px] font-bold text-text-primary leading-tight mb-0.5">Smart India Hackathon</span>
+                      <span className="text-[11px] text-text-secondary mb-0.5">Government of India</span>
+                      <span className="text-[11px] text-text-secondary">Sep 19 – 23, 2025</span>
                     </div>
-                    <ChevronRight size={14} className="text-blue-500 absolute right-0 top-1" />
+                    <ChevronRight size={14} className="text-blue absolute right-0 top-1" />
                   </div>
                   <div className="flex gap-1.5 mt-3">
-                    <span className="rounded bg-[#F1F5F9] px-2 py-0.5 text-[10px] font-semibold text-[#475569]">Hardware</span>
-                    <span className="rounded bg-[#F1F5F9] px-2 py-0.5 text-[10px] font-semibold text-[#475569]">Software</span>
+                    <span className="rounded-full border border-border-light bg-background px-2 py-0.5 text-[10px] font-semibold text-blue">Hardware</span>
+                    <span className="rounded-full border border-border-light bg-background px-2 py-0.5 text-[10px] font-semibold text-blue">Software</span>
                   </div>
                 </div>
 
                 {/* Microsoft Card */}
-                <div className="flex flex-col justify-between rounded-[16px] bg-white p-4 shadow-sm border border-slate-100 flex-1 cursor-pointer hover:shadow-md transition-shadow">
+                <div className="flex flex-col justify-between rounded-md bg-white p-4 shadow-card border border-border flex-1 cursor-pointer hover:shadow-hover hover:border-cyan-light transition-all hover:-translate-y-1">
                   <div className="flex items-start gap-3 relative">
                     <div className="flex h-8 w-8 shrink-0 items-center justify-center">
                       <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -151,15 +151,15 @@ export function HackathonsBanner() {
                       </svg>
                     </div>
                     <div className="flex flex-col pr-4">
-                      <span className="text-[13px] font-bold text-[#1E293B] leading-tight mb-0.5">Microsoft Build</span>
-                      <span className="text-[11px] text-[#64748B] mb-0.5">Microsoft</span>
-                      <span className="text-[11px] text-[#64748B]">Oct 10 – 12, 2025</span>
+                      <span className="text-[13px] font-bold text-text-primary leading-tight mb-0.5">Microsoft Build</span>
+                      <span className="text-[11px] text-text-secondary mb-0.5">Microsoft</span>
+                      <span className="text-[11px] text-text-secondary">Oct 10 – 12, 2025</span>
                     </div>
                   </div>
                   <div className="flex items-end justify-between mt-3">
                     <div className="flex gap-1.5">
-                      <span className="rounded bg-[#F1F5F9] px-2 py-0.5 text-[10px] font-semibold text-[#475569]">AI/ML</span>
-                      <span className="rounded bg-[#F1F5F9] px-2 py-0.5 text-[10px] font-semibold text-[#475569]">Cloud</span>
+                      <span className="rounded-full border border-border-light bg-background px-2 py-0.5 text-[10px] font-semibold text-blue">AI/ML</span>
+                      <span className="rounded-full border border-border-light bg-background px-2 py-0.5 text-[10px] font-semibold text-blue">Cloud</span>
                     </div>
                   </div>
                 </div>
@@ -167,26 +167,26 @@ export function HackathonsBanner() {
               </div>
 
               {/* Row 2: One full width card */}
-              <div className="flex items-center justify-between rounded-[16px] bg-white p-4 shadow-sm border border-slate-100 w-full cursor-pointer hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between rounded-md bg-white p-4 shadow-card border border-border w-full cursor-pointer hover:shadow-hover hover:border-cyan-light transition-all hover:-translate-y-1">
                 <div className="flex items-center gap-4">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#6366F1]">
                     <span className="text-white font-bold text-[16px]">D</span>
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-[14px] font-bold text-[#1E293B] leading-tight mb-0.5">Devfolio Hackathon</span>
-                    <div className="flex items-center gap-2 text-[12px] text-[#64748B]">
+                    <span className="text-[14px] font-bold text-text-primary leading-tight mb-0.5">Devfolio Hackathon</span>
+                    <div className="flex items-center gap-2 text-[12px] text-text-secondary">
                       <span>Devfolio</span>
-                      <span className="w-1 h-1 rounded-full bg-slate-300" />
+                      <span className="w-1 h-1 rounded-full bg-border" />
                       <span>Oct 17 – 19, 2025</span>
                     </div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="hidden sm:flex gap-1.5">
-                    <span className="rounded bg-[#F1F5F9] px-2 py-1 text-[11px] font-semibold text-[#475569]">Web3</span>
-                    <span className="rounded bg-[#F1F5F9] px-2 py-1 text-[11px] font-semibold text-[#475569]">Product</span>
+                    <span className="rounded-full border border-border-light bg-background px-2 py-1 text-[11px] font-semibold text-blue">Web3</span>
+                    <span className="rounded-full border border-border-light bg-background px-2 py-1 text-[11px] font-semibold text-blue">Product</span>
                   </div>
-                  <ChevronRight size={16} className="text-blue-500" />
+                  <ChevronRight size={16} className="text-blue" />
                 </div>
               </div>
 

@@ -9,7 +9,7 @@ interface CompanyLogoProps {
 }
 
 export function CompanyLogo({ variant, name, size = 38, className }: CompanyLogoProps) {
-  const wrapClass = cn("flex items-center justify-center rounded-lg border border-slate-200 bg-white flex-shrink-0", className);
+  const wrapClass = cn("flex items-center justify-center rounded-lg border border-border bg-white flex-shrink-0", className);
   const style = { width: size, height: size };
 
   switch (variant) {
@@ -84,7 +84,7 @@ export function CompanyLogo({ variant, name, size = 38, className }: CompanyLogo
       );
     default:
       return (
-        <div className={cn(wrapClass, "bg-slate-100 font-bold text-slate-600 text-sm")} style={style} aria-label={name}>
+        <div className={cn(wrapClass, "bg-background font-bold text-text-secondary text-sm")} style={style} aria-label={name}>
           {name.charAt(0).toUpperCase()}
         </div>
       );

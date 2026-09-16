@@ -46,7 +46,7 @@ const SOCIALS = [
 export function Footer() {
   return (
     <footer className="bg-[#0A1128] text-slate-400" aria-label="Site footer">
-      <div className="mx-auto max-w-[1400px] px-6 py-16">
+      <div className="mx-auto max-w-[1400px] px-6 pt-10 pb-6">
         
         {/* Top grid */}
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-6 lg:gap-8">
@@ -108,7 +108,7 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-16 flex flex-col items-center justify-between border-t border-slate-800 pt-8 sm:flex-row">
+        <div className="mt-8 flex flex-col items-center justify-between border-t border-slate-800 pt-4 sm:flex-row">
           <p className="text-[12px]">© {new Date().getFullYear()} Intern Atlas. All rights reserved.</p>
           <div className="mt-4 flex items-center gap-6 sm:mt-0">
             <span className="flex items-center gap-2 text-[12px] text-white">

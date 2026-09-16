@@ -17,27 +17,27 @@ export function FeaturedWeek() {
         {/* Section Header */}
         <div className="mb-6 flex items-end justify-between">
           <div className="flex items-baseline gap-3">
-            <h2 className="text-xl font-extrabold text-slate-900">Featured this week</h2>
-            <p className="hidden text-[14px] text-slate-500 sm:block">Curated opportunities, events and stories — handpicked for you.</p>
+            <h2 className="text-[28px] md:text-[32px] tracking-tight font-extrabold text-primary">Featured this week</h2>
+            <p className="hidden text-[14px] text-text-secondary sm:block">Curated opportunities, events and stories — handpicked for you.</p>
           </div>
           <div className="flex items-center gap-3">
             <div className="hidden items-center gap-2 md:flex">
-              <button className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-400 hover:border-slate-300 hover:bg-slate-50 hover:text-slate-700"><ArrowLeft size={14} /></button>
-              <button className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"><ArrowRight size={14} /></button>
+              <button className="flex h-8 w-8 items-center justify-center rounded-full border border-border text-text-muted hover:border-cyan-light hover:bg-background transition-colors"><ArrowLeft size={14} /></button>
+              <button className="flex h-8 w-8 items-center justify-center rounded-full border border-border text-primary hover:border-cyan-light hover:bg-background transition-colors"><ArrowRight size={14} /></button>
             </div>
-            <Link href="#featured" className="group flex items-center gap-1 text-[13px] font-semibold text-blue-600 hover:text-blue-700">
+            <Link href="#featured" className="group flex items-center gap-1 text-[13px] font-semibold text-blue hover:text-blue-hover">
               View all <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
         </div>
 
         {/* Horizontal Card List */}
-        <div className="flex gap-5 overflow-x-auto pb-4 scrollbar-none snap-x snap-mandatory">
+        <div className="flex gap-5 overflow-x-auto -mt-4 py-4 scrollbar-none snap-x snap-mandatory">
           {FEATURED.map((item) => (
             <div
               key={item.id}
               className={cn(
-                "group relative flex h-[280px] min-w-[300px] max-w-[320px] shrink-0 snap-start flex-col justify-between overflow-hidden rounded-[24px] bg-gradient-to-br p-6 shadow-md transition-transform hover:-translate-y-1",
+                "group relative flex h-[280px] min-w-[300px] max-w-[320px] shrink-0 snap-start flex-col justify-between overflow-hidden rounded-[24px] bg-gradient-to-br p-6 shadow-card transition-transform hover:-translate-y-1 hover:shadow-hover border border-border/10",
                 item.bg
               )}
             >
@@ -46,15 +46,15 @@ export function FeaturedWeek() {
               <div className={cn("absolute -bottom-10 -right-10 h-32 w-32 rounded-full blur-2xl transition-transform duration-700 group-hover:scale-150", item.accent)} />
               
               <div className="relative z-10 flex flex-col gap-4">
-                <span className="w-max rounded-full bg-white/10 px-2.5 py-1 text-[10px] font-semibold tracking-wide text-slate-200 backdrop-blur-sm">
+                <span className="w-max rounded-full bg-white/10 px-2.5 py-1 text-[10px] font-semibold tracking-wide text-border backdrop-blur-sm">
                   {item.type}
                 </span>
                 <h3 className="text-2xl font-bold leading-tight text-white">{item.title}</h3>
               </div>
 
               <div className="relative z-10 mt-auto flex items-end justify-between">
-                <p className="text-[13px] font-medium text-slate-300 max-w-[180px] leading-snug">{item.desc}</p>
-                <button className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-slate-900 transition-transform group-hover:scale-110">
+                <p className="text-[13px] font-medium text-border max-w-[180px] leading-snug">{item.desc}</p>
+                <button className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-primary transition-transform group-hover:scale-110">
                   <ArrowRight size={16} />
                 </button>
               </div>

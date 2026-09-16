@@ -10,36 +10,36 @@ const CARDS = [
 
 export function BeyondJobs() {
   return (
-    <section className="bg-transparent py-4 lg:py-6" aria-label="Beyond Jobs">
+    <section className="bg-transparent pt-2 lg:pt-3 pb-0" aria-label="Beyond Jobs">
       <div className="mx-auto max-w-[1400px] px-6">
         
         {/* Header */}
         <div className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
-          <div className="flex flex-col">
-            <span className="mb-2 text-[11px] font-bold uppercase tracking-widest text-blue-600">
+          <div className="flex flex-col text-center sm:text-left">
+            <span className="mb-2 text-[18px] font-bold uppercase tracking-widest text-blue">
               EXPLORE MORE
             </span>
-            <h2 className="text-[28px] font-extrabold text-slate-900 leading-tight">
-              Opportunities <span className="font-serif italic text-red-600">beyond jobs.</span>
+            <h2 className="text-[28px] font-extrabold text-primary tracking-tight leading-tight">
+              Opportunities <span className="font-serif italic font-normal text-editorial-red">beyond jobs.</span>
             </h2>
           </div>
 
           <div className="flex items-center gap-4">
-            <span className="hidden sm:flex items-center gap-1.5 text-[14px] font-bold text-blue-600 cursor-pointer hover:text-blue-700">
+            <span className="hidden sm:flex items-center gap-1.5 text-[14px] font-bold text-blue cursor-pointer hover:text-blue-hover">
               View all <ArrowRight size={16} />
             </span>
             <div className="flex items-center gap-2">
-              <button className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-400 hover:border-slate-300 hover:bg-slate-50"><ChevronLeft size={18} /></button>
-              <button className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"><ChevronRight size={18} /></button>
+              <button className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-text-muted hover:border-cyan-light hover:bg-background transition-colors"><ChevronLeft size={18} /></button>
+              <button className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-primary hover:border-cyan-light hover:bg-background transition-colors"><ChevronRight size={18} /></button>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 pb-6">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {CARDS.map((card) => (
             <div
               key={card.id}
-              className={`group relative flex h-[180px] w-full flex-col justify-end overflow-hidden rounded-2xl p-4 cursor-pointer transition-all duration-300 hover:-translate-y-1 shadow-sm border border-slate-200/50 hover:shadow-lg`}
+              className={`group relative flex h-[180px] w-full flex-col justify-end overflow-hidden rounded-2xl p-4 cursor-pointer transition-all duration-300 hover:-translate-y-1 shadow-card border border-border hover:shadow-hover hover:border-cyan-light`}
             >
               {/* Background Image */}
               <img 

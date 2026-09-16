@@ -37,8 +37,8 @@ export function CategoryPills({ className, onSelect }: CategoryPillsProps) {
           <button
             key={pill.id} role="listitem" onClick={() => handleSelect(pill)} aria-pressed={isActive}
             className={cn(
-              "flex-shrink-0 rounded-full border px-3.5 py-1.5 text-[13px] font-medium transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-1",
-              isActive ? "border-blue-600 bg-blue-600 text-white shadow-sm" : "border-slate-200 bg-white text-slate-600 hover:border-blue-300 hover:text-blue-600 hover:bg-blue-50"
+              "flex-shrink-0 rounded-full border px-3.5 py-1.5 text-[13px] font-medium transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue focus-visible:ring-offset-1",
+              isActive ? "border-blue bg-blue text-white shadow-sm" : "border-border bg-white text-text-secondary hover:border-blue-hover hover:text-blue-hover hover:bg-background"
             )}
           >
             {pill.label}

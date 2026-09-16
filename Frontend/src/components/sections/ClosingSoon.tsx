@@ -16,7 +16,7 @@ export function ClosingSoon({ opportunities }: ClosingSoonProps) {
         <SectionHeader
           eyebrow="Hurry Up" urgentEyebrow title="Closing soon" subtitle="Don't miss these opportunities."
           action={
-            <Link href="#closing" className="group inline-flex items-center gap-1.5 text-[14px] font-semibold text-blue-600 transition-all hover:text-blue-700">
+            <Link href="#closing" className="group inline-flex items-center gap-1.5 text-[14px] font-semibold text-blue transition-all hover:text-blue-hover">
               View all <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
             </Link>
           }
