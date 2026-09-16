@@ -14,26 +14,26 @@ export function HeroSection() {
           
           {/* ── Left: Text + Actions ──────────────────────────────────── */}
           <div className="flex flex-col z-10">
-            <span className="mb-6 text-[18px] font-bold uppercase tracking-widest text-blue">
+            <span className="mb-2 text-[14px] sm:text-[16px] font-bold uppercase tracking-widest text-blue">
               FOR INDIA'S NEXT GENERATION
             </span>
 
-            <h1 className="mb-6 text-[clamp(36px,8vw,72px)] font-extrabold leading-[1.05] tracking-[-0.03em] text-primary">
+            <h1 className="mb-3 text-[clamp(28px,5vw,52px)] font-extrabold leading-[1.05] tracking-[-0.03em] text-primary">
               Real <br className="hidden sm:block" />
               opportunities. <br />
               <span className="font-serif italic font-normal text-editorial-red">A brighter you.</span>
             </h1>
 
-            <p className="mb-10 max-w-[500px] text-[16px] md:text-[18px] leading-relaxed text-text-secondary">
+            <p className="mb-4 max-w-[460px] text-[14px] md:text-[16px] leading-relaxed text-text-secondary">
               Internships, jobs, competitions, scholarships, workshops, college festivals and more — all in one place for India's students.
             </p>
 
-            <div className="mb-10 flex flex-wrap items-center gap-4">
-              <Button className="h-12 w-full sm:w-auto px-8 text-[15px]">
+            <div className="mb-6 flex flex-wrap items-center gap-3">
+              <Button className="h-10 w-full sm:w-auto px-6 text-[14px]">
                 Get started for free
                 <ArrowRight size={16} className="ml-2" />
               </Button>
-              <Button variant="outline" className="h-12 w-full sm:w-auto px-8 text-[15px]">
+              <Button variant="outline" className="h-10 w-full sm:w-auto px-6 text-[14px]">
                 Explore opportunities
               </Button>
             </div>
@@ -51,7 +51,7 @@ export function HeroSection() {
                     key={i} 
                     src={src} 
                     alt="Student avatar" 
-                    className={`h-10 w-10 rounded-full border-2 border-white object-cover shadow-sm ${i > 0 ? "-ml-3" : ""}`} 
+                    className={`h-8 w-8 rounded-full border-2 border-white object-cover shadow-sm ${i > 0 ? "-ml-3" : ""}`} 
                   />
                 ))}
               </div>

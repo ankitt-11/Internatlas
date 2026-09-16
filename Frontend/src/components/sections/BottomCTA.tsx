@@ -31,7 +31,7 @@ export function BottomCTA() {
       </div>
 
       {/* Content Container */}
-      <div className="relative mx-auto flex min-h-[300px] max-w-[1400px] flex-col items-center px-6 md:flex-row">
+      <div className="relative mx-auto flex min-h-[200px] max-w-[1400px] flex-col items-center px-6 md:flex-row">
         
         {/* ── Left Column: Text & Buttons ──────────────────────────── */}
         <div className="relative z-10 flex w-full flex-col items-start justify-center text-left py-10 lg:w-[60%] xl:w-[50%]">

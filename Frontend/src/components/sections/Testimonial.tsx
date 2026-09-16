@@ -4,16 +4,17 @@ export function Testimonial() {
   return (
     <section className="bg-transparent pt-0 pb-2 lg:pb-3" aria-label="Student Stories">
       <div className="mx-auto max-w-[1400px] px-6">
-        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.5fr_1fr]">
+        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.6fr_1fr]">
           
           {/* Left Text */}
           <div className="flex flex-col">
-              <span className="mb-2 block text-[18px] font-bold uppercase tracking-widest text-blue">
+            <span className="mb-2 block text-[18px] font-bold uppercase tracking-widest text-blue">
               STUDENT STORIES
             </span>
-            <blockquote className="mb-10 text-[32px] font-extrabold leading-tight text-primary md:text-[40px]">
-              "InternAtlas helped me find my first internship and even a scholarship. The platform is simple, genuine and{" "}
-              <span className="font-serif italic font-normal text-editorial-red">student-friendly.</span>"
+            <blockquote className="mb-10 text-[28px] font-medium leading-[1.3] text-[#1e293b] md:text-[32px] xl:text-[35px] tracking-tight">
+              “InternAtlas helped me find my first internship and even <br className="hidden lg:block" />
+              a scholarship. The platform is simple, genuine and <br className="hidden lg:block" />
+              <span className="font-serif italic font-normal text-editorial-red">student-friendly.”</span>
             </blockquote>
             
             <div className="flex items-center justify-between">
@@ -44,17 +45,28 @@ export function Testimonial() {
             </div>
           </div>
 
-          {/* Right Visual Box */}
-          <div className="relative flex h-[320px] w-full items-center justify-center overflow-hidden rounded-[40px] bg-soft-pink">
-            {/* Soft pink blob */}
-            <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-pink-accent/20 blur-3xl" />
-            <div className="relative z-10 p-10 text-center font-serif italic text-3xl font-medium text-primary">
-              <span className="text-pink-accent text-5xl leading-none absolute -top-4 -left-6">"</span>
-              More <br />
-              opportunities. <br />
-              Brighter <br />
-              futures.
+          {/* Right Visual Box: Two side-by-side rounded squares */}
+          <div className="flex h-full w-full items-center justify-center gap-4 lg:justify-end">
+            
+            {/* Left Square */}
+            <div className="relative flex h-[180px] w-[180px] sm:h-[220px] sm:w-[220px] items-end justify-center overflow-hidden rounded-[24px] bg-[#fdf2f8] shadow-sm">
+              {/* Soft pink arch shape */}
+              <div className="h-[80%] w-[85%] rounded-t-full bg-pink-100/50" />
             </div>
+
+            {/* Right Square */}
+            <div className="relative flex h-[180px] w-[180px] sm:h-[220px] sm:w-[220px] flex-col items-center justify-center overflow-hidden rounded-[24px] bg-[#fdf2f8] p-4 sm:p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-pink-100/50">
+              <div className="z-10 flex flex-col items-center text-center -rotate-[6deg] drop-shadow-sm">
+                <span className="font-hand text-[22px] sm:text-[27px] font-medium leading-[1.15] text-[#1e293b]">
+                  <span className="relative top-[4px] mr-1 font-serif text-[44px] sm:text-[56px] font-bold leading-none text-[#F472B6]">“</span>
+                  More <br />
+                  opportunities. <br />
+                  Brighter <br />
+                  futures.
+                </span>
+              </div>
+            </div>
+
           </div>
 
         </div>
